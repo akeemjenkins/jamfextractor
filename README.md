@@ -2,6 +2,22 @@
 
 A Go implementation of the original zsh script for extracting FileVault recovery keys from Jamf Pro.
 
+## Attribution and Credits
+
+This Go implementation is based on the original zsh script created by **Rich Trouton** (rtrouton) from [Der Flounder](https://derflounder.wordpress.com/). 
+
+**Original Script**: [Using the Jamf Pro API to retrieve FileVault personal recovery keys](https://derflounder.wordpress.com/2023/01/25/using-the-jamf-pro-api-to-retrieve-filevault-personal-recovery-keys/)
+
+**Author**: Rich Trouton (rtrouton)  
+**Website**: [Der Flounder](https://derflounder.wordpress.com/)  
+**Publication Date**: January 25, 2023
+
+### Special Thanks
+
+We extend our sincere gratitude to Rich Trouton for his pioneering work in creating the original script that demonstrated how to use the Jamf Pro API to retrieve FileVault personal recovery keys. His comprehensive approach to handling both the Classic API and the modern Jamf Pro API, along with his detailed documentation and security considerations, provided the foundation for this Go implementation.
+
+The original script's architecture, API endpoint usage, and error handling patterns have been carefully preserved and enhanced in this Go version, ensuring continuity with the proven approach while adding modern features like automatic computer discovery, improved error handling, and cross-platform compatibility.
+
 ## Features
 
 - **Automatic Computer Discovery**: Get all computers directly from Jamf Pro API or process specific computers from a file
